@@ -12,7 +12,8 @@ public class HttpQuery {
     public  String getOkApiBtc(){
 
         //api url地址
-        String url = "https://www.okex.com/api/v1/kline.do?symbol=ltc_btc&type=1min&size=1";
+        //String url = "https://www.okex.com/api/v1/kline.do?symbol=ltc_btc&type=1min&size=1";
+        String url ="https://www.baidu.com";
         //post请求
         HttpMethod method =HttpMethod.GET;
         // 封装参数，千万不要替换为Map与HashMap，否则参数无法传递
